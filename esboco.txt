@@ -1,0 +1,119 @@
+Parte 1: Markup
+
+1. Visão geral do HTML5. [Diego]
+2. Análise do suporte atual pelos navegadores e estratégias de uso [Diego]
+3. Estrutura básica, DOCTYPE e charsets [Diego]
+- não esquecer de falar de:
+  - text/html-sandboxed
+  - iframe com sandbox, seamless e srcdoc
+4. Modelos de conteúdo [Diego]
+5. Novos elementos e atributos [Diego]
+6. Elementos modificados e ausentes [Diego]
+
+Parte 2: Formulários e Multimídia
+
+7. Novos tipos de campos
+8. Tipos de dados e validadores
+9. Detalhes, conteúdo editável.
+10. Drag-n-drop e correção ortográfica
+11. Elementos audio e video, e codecs [Diego]
+12. Elemento device e Stream API
+- elemento device
+- device.onchange
+- Stream e StreamRecorder
+- Futuro: Peer-to-peer
+
+Parte 3: A nova geração de aplicações web I
+
+13. MathML e SVG
+- entendendo mathml e svg
+- inserindo mathml e svg no html5
+- exemplo de mathml
+- exemplo de svg
+- onde aprender
+14. Canvas API
+- o elemento canvas
+- context
+- fillRect, strokeRect e clearRect
+- beginPath, moveTo, lineTo, closePath
+- fill e stroke
+- arc
+- bezierCurveTo e quadraticCurveTo
+- rect
+- fillStyle e strokeStyle
+- transparência, CSS3 colors e globalAlpha
+- lineWidth, lineCap, lineJoin, miterLimit
+- Image e drawImage
+- Gradientes
+- rotate
+- Para estudar: patterns, shadows, save e restore, translate, scale, transform, clip
+15. Server-sent events e WebSockets
+- o elemento eventsource
+- eventos: open, message, error
+- WebSockets: send e close
+- eventos: open, message, close
+- o protocolo
+16. DOM e HTML5
+17. Novos eventos DOM
+- contextmenu
+- drag, dragend, dragenter, dragleave, dragover, dragstart, drop
+- media: loadstart, progress, suspend, abort, error, emptied, stalled, play, pause, loadedmetadata, loadeddata, waiting, playing, canplay, canplaythrough, seeking, seeked, timeupdate, ended, ratechange, durationchange, volumechange 
+- invalid
+- beforeprint, afterprint
+- hashchanged, pagehide, pageshow, popstate
+- online, offline
+- undo, redo
+18. XPath e document.evaluate()
+- Por que usar XPath, e não querySelector?
+- document.evaluate
+- Default namespace: "http://www.w3.org/1999/xhtml"
+19. Menus e toolbars
+- menu e command
+- menus popup
+20. Tipos de links
+- alternate
+- archives
+- author
+- bookmark
+- external
+- help
+- icon
+- license
+- nofollow
+- noreferrer
+- pingback
+- prefetch
+- search
+- stylesheet
+- sidebar
+- tag
+- index
+- up
+- first
+- last
+- next
+- prev
+Parte 4: A nova geração de aplicações web II
+21. Microdata
+- itemscope e itemprop
+- imagens
+- itemref
+- itemtype
+- itemid
+- microdata API (document.getItems e cat.properties[key].values)
+22. Histórico de sessão e API Storage
+- Já escrito
+23. Aplicações offline
+- client-side database
+- controle de cache com manifest
+- atributo onLine em navigator e eventos online e offline
+24. Modal dialogs
+- showModalDialogs
+- passando argumentos para a modal
+- recebendo um valor de retorno
+- registerContentHandler
+25. Scroll in to view
+26. Drag and Drop API
+27. Interfaces de edição e UndoManager
+28. Comunicação entre documentos
+

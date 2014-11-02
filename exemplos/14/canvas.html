@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Canvas API</title>
+</head>
+<body>
+
+<canvas id="x" width="300" height="300"></canvas>
+<button onclick="desenhar()">desenhar</button>
+
+<script>
+function desenhar(){
+  // Obtemos o contexto
+  context=document.getElementById('x').getContext('2d')
+
+  //Iniciamos um novo desenho
+  context.beginPath()
+
+  //Movemos a caneta para o inicio do desenho
+  context.moveTo(150,50)
+
+  //Desenhamos as linhas
+  context.lineTo(220,250)
+  context.lineTo(50,125)
+  context.lineTo(250,125)
+  context.lineTo(80,250)
+  context.lineTo(150,50)
+
+  //O desenho não é de verdade enquanto você
+  //não mandar o contexto pintá-lo.
+
+  //Vamos pintar o interior de amarelo
+  context.fillStyle='#ff0'
+  context.fill()
+
+  //Vamos pintar as linhas de vermelho.
+  context.strokeStyle='#f00'
+  context.stroke()
+
+}
+</script>
+
+</body>
+</html>

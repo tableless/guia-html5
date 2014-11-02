@@ -1,0 +1,300 @@
+* {
+	margin:0;
+	padding:0;
+}
+.limite {width:960px; margin:0 auto;}
+/*** FONTS ***/
+@font-face {
+     font-family: helveticaneue;
+     src: local(HelveticaNeueLTStd-Lt.otf), url(fonts/HelveticaNeueLTStd-Lt.otf);
+}
+
+nav, article, aside, section, footer, header, content {display:block;}
+
+header {
+	position:relative;
+	margin:0 auto;
+	overflow:hidden;
+	padding:0 0 30px;
+	background:url(../img/sombratopo.png) no-repeat center bottom; 
+}
+header .limite {overflow:hidden; position:relative; }
+header .logotableless a {width:125px; height:36px; background:url(../img/logopeqtableless.png) no-repeat center center; float:right; margin:15px 0 0 15px;}
+header .logovisie a {width:102px; height:36px; background:url(../img/logopeqvisie.png) no-repeat center center; float:right; margin:15px 0 0;}
+.lnkprint {
+	position:absolute;
+	top:-40px; right:0;
+	background:url(print.png) no-repeat left center;
+	padding:10px 0 10px 20px;
+	font:12px verdana, arial, tahoma, sans-serif;
+	color:#666;
+}
+header h1 {
+	font:200 46px/70px "helveticaneue","HelveticaNeue-Light","HelveticaNeue","Helvetica Neue Light","Helvetica Neue", 'Josefin Sans Std Light', Helvetica,Arial,sans-serif;
+	color:#393537;
+	float:left;
+}
+
+header h2 {
+	font:200 13px/70px "helveticaneue","HelveticaNeue-Light","HelveticaNeue","Helvetica Neue Light","Helvetica Neue", 'Josefin Sans Std Light', Helvetica,Arial,sans-serif;
+	color:#393537;
+	float:left;
+	margin-left:15px;
+}
+
+#navbar {color:#918F8F; text-align:right; padding:10px 30px; width:960px; margin:0 auto; font:13px georgia, times, serif;}
+#navbar a {
+	color:#918F8F;
+	text-decoration:none;
+}
+#navbar a:hover {color:#000; text-decoration:underline;}
+
+article {
+	margin:0 auto;
+	width:960px;
+}
+
+article p {
+	font:18px/1.556em Times, 'Linux Libertine',Palatino,'Palatino Linotype','Book Antiqua',Georgia,'Times New Roman',serif;
+	margin-bottom:15px;
+	color:#333;
+	width:700px;
+}
+
+article p a:link {color:blue;}
+article p a:visited {color:purple;}
+article p a:hover {color:red; text-decoration:none;}
+article p a:active {color:orange; text-decoration:none;}
+
+article h1 {
+	font:200 40px/50px "helveticaneue","HelveticaNeue-Light","HelveticaNeue","Helvetica Neue Light","Helvetica Neue", 'Josefin Sans Std Light', Helvetica,Arial,sans-serif;
+	color:#C53930;
+	padding:70px 0 130px;
+	text-transform:uppercase;
+}
+
+article h2 {
+	font:bold italic 44px/1.556 Times, 'Linux Libertine',Palatino,'Palatino Linotype','Book Antiqua',Georgia,'Times New Roman',serif;
+	color:#000;
+	margin:50px 0 0;
+}
+
+article h3 {
+	font:italic 30px/24px Times, 'Linux Libertine',Palatino,'Palatino Linotype','Book Antiqua',Georgia,'Times New Roman',serif;
+	color:#000;
+	margin:50px 0 10px;
+}
+
+article h4 {
+	font:bold 20px/1.556 Times, 'Linux Libertine',Palatino,'Palatino Linotype','Book Antiqua',Georgia,'Times New Roman',serif;
+	color:#000;
+	margin:20px 0 0;
+}
+
+article table {
+	border-collapse:collapse;
+	margin:10px 0 30px 50px;
+	border:1px solid #CCC;
+	background:#FFF;
+	-moz-box-shadow: 0px 0px 9px #CCC;
+	-webkit-box-shadow: 0px 0px 9px #CCC;
+	box-shadow: 0px 0px 9px #CCC;
+}
+article table th, article table td {border-bottom:1px solid #CCC; text-align:center;}
+article table th {
+	font: italic bold 14px georgia, times, serif;
+	color:#333;
+	vertical-align:center;
+	padding:10px 20px;
+}
+article table td {
+	font: normal 13px georgia, times, serif;
+	color:#333;
+	vertical-align:center;
+	padding:10px 20px;
+}
+
+span.supportyes, span.supportno {
+	text-indent:-9999px;
+	overflow:hidden;
+	display:block;
+	width:50px;
+	height:25px;
+}
+span.supportyes {background:#48893F;}
+span.supportno {background:#9A2525;}
+
+article ol, article ul {
+	font:italic 17px times,georgia;
+	color:#333;
+	margin:30px 70px;
+}
+
+article ol li, article ul li {padding:0 0 10px;}
+
+article dl {
+	font:italic 17px times,georgia;
+	color:#333;
+	margin:0 40px;
+}
+article dt {font-weight:bold;}
+article dd {margin:0 0 10px;}
+
+article pre code {
+	margin: 20px 0px;
+	padding:10px 20px;
+	background:#FFFFC0;
+	display:block;
+	line-height:17px;
+}
+.example code {background:none; padding:0;}
+.example div {padding:6px;}
+/****
+	ÍNDICE
+****/
+#chapter-1 header {
+	display:block;
+	padding:60px 0;
+}
+#chapter-1 header .limite {overflow:visible;}
+
+#chapter-1 header h1 {
+	font:100 103px/70px "helveticaneue","HelveticaNeue-Light","HelveticaNeue","Helvetica Neue Light","Helvetica Neue", 'Josefin Sans Std Light', Helvetica,Arial,sans-serif;
+	color:#393537;
+	float:left;
+}
+
+#chapter-1 header h2 {
+	font:100 22px/70px "helveticaneue","HelveticaNeue-Light","HelveticaNeue","Helvetica Neue Light","Helvetica Neue", 'Josefin Sans Std Light', Helvetica,Arial,sans-serif;
+	color:#393537;
+	float:right;
+	
+}
+#chapter-1 header h3 {display:none;}
+
+#chapter-1 nav {
+	width:800px;
+	margin:0 auto;
+}
+#chapter-1 #navbar {display:none;}
+
+
+
+#chapter-1 article h1 {display:none;}
+
+#chapter-1 article h2 {
+	font:200 19px/22px "helveticaneue","HelveticaNeue-Light","HelveticaNeue","Helvetica Neue Light","Helvetica Neue", 'Josefin Sans Std Light', Helvetica,Arial,sans-serif;
+	color:#C53930;
+	margin:30px 0 0;
+}
+#chapter-1 article h3 {
+	font:100 190px/190px "helveticaneue","HelveticaNeue-Light","HelveticaNeue","Helvetica Neue Light","Helvetica Neue", 'Josefin Sans Std Light', Helvetica,Arial,sans-serif;
+	color:#E7E7E6;
+	float:right;
+	margin:170px -200px 0 0;
+	text-transform:uppercase;
+	-webkit-transform: rotate(-90deg); 
+	-moz-transform: rotate(-90deg);
+}
+
+
+#chapter-1 nav ol {margin:0 0 30px 30px;}
+#chapter-1 nav ol li {font:13px/18px georgia, times, times new roman, serif; color:#444; padding:0;}
+#chapter-1 nav ol a:link {
+	color:#444;
+	text-decoration:none;
+} 
+
+#chapter-1 nav ol a:visited {color:purple; font-style:italic; text-decoration:none;}
+#chapter-1 nav ol a:hover {color:#000; text-decoration:underline;}
+
+/*** RODAPE ***/
+footer {
+	padding:40px 20px 90px;
+	background:url(../img/sombrabaixo.png) no-repeat center top;
+}
+
+.logo a {
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+.logotableless a {background-image:url(../img/tableless.png); width:242px; height:72px; float:left;}
+.logovisie a {background-image:url(../img/visie.png); width:194px; height:72px; float:right;}
+
+
+
+.sidenote{
+	width:25%;
+	float:right;
+	padding:0.5em 2em;
+	margin:0 0 0 1em;
+	background:#FFF;
+	border:1px solid #ABA9A9;
+}
+.sidenote p {width:auto;font-size:15px; line-height:18px;}
+.sidenote h3 {margin:20px 0 0;}
+.sidenote h4, .sidenote h3 {font:italic normal 23px times, georgia, serif; padding:0 0 10px;}
+
+code del{
+  text-decoration:none;
+  color:gray;
+}
+.HTMLComment{color:#699;}
+.tagName{
+  font-weight:bold;
+  color:#cc00cc;
+}
+.tagAttribute{font-weight:bold;}
+.tagAttribute.on{color:green;}
+.tagValue{color:blue;}
+.zebra1{background:#eee}
+.line{color:#666;}
+
+@media print {
+  nav#navbar{display:none}
+  a{color:black; text-decoration:none;}
+  h1{page-break-before:always;padding-bottom:100px;}
+  body{margin-left:100px;}
+  .indice li a{color:black !important;}
+}
+
+
+/****
+	
+body {
+	font:large/1.556 'Linux Libertine',Palatino,'Palatino Linotype','Book Antiqua',Georgia,'Times New Roman',serif;
+}
+
+article, header{
+	width:800px;
+	margin:0 auto;
+}
+
+nav {
+	text-align:center;
+	background:#EEE;
+	font-size:small;
+	padding:5px;
+}
+nav a {
+	color:#666;
+	text-transform:uppercase;
+}
+nav a:hover {color:red;}
+
+nav ol {margin:0;}
+nav ol li, nav h2 {text-align:left;}
+nav h2 {margin:20px 20px 0;}
+
+li code, p code {color:#666;}
+
+.indice li.todo a{color:#F00;}
+.indice li.doing a{color:#990;}
+.indice li a{color:#090;}
+
+
+
+****/

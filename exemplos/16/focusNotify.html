@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+  <title>Notifier</title>
+  <script>
+
+  function notify(text){
+    document.getElementById('msg').innerHTML+='<p>'+text+'</p>'
+    titleFlick()
+  }
+
+  function titleFlick(){
+    if(document.hasFocus()){
+      document.title='Notifier'
+      return
+    }
+    document.title=document.title=='Notifier'?'* Notifier':'Notifier'
+    setTimeout('titleFlick()',500)
+  }
+
+  </script>
+</head>
+
+<body>
+  <input type="button" id="notify" value="Notify in 5 seconds" 
+  onclick="notify('Will notify in 5 seconds...');setTimeout('notify(\'Event shoot!\')',5000)" />
+  <div id="msg"></div>
+</body>
+
+</html>
